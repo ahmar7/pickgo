@@ -1,0 +1,55 @@
+:root {
+    --green: #09AF2E;
+    --font: 'Inter', sans-serif
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font) !important;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+button, input {
+    border: none;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    text-align: center;
+}
+
+.container-width {
+    margin: 0 auto;
+    width: 89vw;
+    text-align: center;
+}
+
+.no-left-margin {
+    margin-left: 0 !important;
+}
+
+.no-right-margin {
+    margin-right: 0 !important;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
