@@ -14,8 +14,11 @@ const Banner = () => {
       <div className="container-width banner-flex">
         <div className="white-bx">
           <div className="innerbx-flex">
-            <div className="bx-mbl">
-              <img src={Mobile} alt="" />
+            <div className="img-relative">
+              <div className="bx-mbl">
+                <img src={Mobile} alt="" />
+                <p>$25</p>
+              </div>
             </div>
             <div className="bx-content right-float">
               <ul className="bx-ul">

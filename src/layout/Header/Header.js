@@ -56,7 +56,7 @@ const Header = () => {
             />
             <img className="nav-drop" src={Chivron} alt="" />
           </div>
-          <div className="select-wrap">
+          <div className="select-wrap home-hidden">
             <Dropdown
               className="stuff-select"
               options={options3}
@@ -64,6 +64,12 @@ const Header = () => {
               placeholder="Select an option"
             />
             <img className="nav-drop" src={Chivron} alt="" />
+          </div>
+          <div className="nav-btn home-shown">
+            <button>Login</button>
+          </div>
+          <div className="nav-btn home-shown">
+            <button>Sign up</button>
           </div>
         </div>
         <div className="nav-icons">

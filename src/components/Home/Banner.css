@@ -33,6 +33,19 @@
 .bx-mbl img {
   width: 100%;
 }
+.bx-mbl p {
+  background: white;
+  position: absolute;
+
+  left: 115px;
+  top: 105px;
+  font-family: "Fehmarn Belt";
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 40px;
+  color: #343535;
+  transform: matrix(1, -0.08, 0.18, 0.98, 0, 0);
+}
 
 .bx-ul {
   font-style: normal;
@@ -103,6 +116,10 @@
   .bx-mbl img {
     width: 250px;
   }
+  .bx-mbl p {
+    left: 98px;
+    top: 89px;
+  }
   .bx-mbl {
     left: -15px;
   }
@@ -114,9 +131,16 @@
 @media (max-width: 980px) {
   .banner-flex {
     flex-direction: column;
+    padding: 100px 0;
+    height: auto;
   }
+
   .bx-mbl img {
     width: auto;
+  }
+  .bx-mbl p {
+    left: 116px;
+    top: 106px;
   }
   .right-float {
     width: 60%;
@@ -138,6 +162,13 @@
   .bx-mbl img {
     width: 250px;
   }
+  .bx-mbl p {
+    left: 98px;
+    top: 89px;
+  }
+  .banner-flex {
+    padding: 50px 0;
+  }
 }
 
 @media (max-width: 650px) {
@@ -146,6 +177,13 @@
   }
   .bx-mbl img {
     width: 200px;
+  }
+  .bx-mbl p {
+    left: 81px;
+    top: 71px;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 32px;
   }
   .bx-mbl {
     top: 20px;
@@ -160,9 +198,34 @@
 
 @media (max-width: 500px) {
   .bx-mbl img {
-    width: 160px;
+    width: 220px;
+    margin-bottom: 20px;
+  }
+  .bx-mbl p {
+    left: 209px;
+    top: 114px;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 34px;
   }
   .bx-mbl {
-    top: 50px;
+    position: relative;
+    width: max-content;
+  }
+  .img-relative {
+    display: flex;
+    justify-content: center;
+  }
+  .bx-mbl p {
+    left: 89px;
+    top: 80px;
+  }
+  .white-bx {
+    padding: 35px 15px;
+  }
+  .right-float {
+    width: 100%;
+    float: none;
+    margin-left: 17px;
   }
 }
