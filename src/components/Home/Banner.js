@@ -1,5 +1,12 @@
 import React from "react";
-import { Download, ExportIco, Mobile, WDownload } from "../../utils/allImg";
+import {
+  Download,
+  ExportIco,
+  GetupIco,
+  GreatIco,
+  Mobile,
+  WDownload,
+} from "../../utils/allImg";
 import "./Banner.css";
 const Banner = () => {
   return (
@@ -38,6 +45,23 @@ const Banner = () => {
               <p className="bx-row">
                 Offer to limited number of users & run out fast. Take it if you
                 see offer.
+              </p>
+            </div>
+            <div className="single-bx">
+              <div className="bx-ico">
+                <img src={GreatIco} alt="" />
+              </div>
+              <p className="bx-row">
+                Be a great customer. Make a purchase, and if you’re happy, go
+                back.
+              </p>
+            </div>
+            <div className="single-bx">
+              <div className="bx-ico">
+                <img src={GetupIco} alt="" />
+              </div>
+              <p className="bx-row">
+                Great customer get up to $50 to try new businesses.
               </p>
             </div>
           </div>

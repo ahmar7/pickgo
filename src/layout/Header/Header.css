@@ -1,135 +1,140 @@
- .navbar {
-     padding: 30px 0;
- }
+.navbar {
+  padding: 30px 0;
+}
 
- .navbar {
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-     gap: 45px;
- }
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 45px;
+}
 
- /* .inner-flex {
+/* .inner-flex {
      margin: 0 22px;
  } */
- .nav-input {
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-     gap: 20px;
- }
+.nav-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
 
- .location-select .Dropdown-control {
-     padding: 8px 17px 8px 38px;
-     text-align: center;
-     width: 100%;
-     background: #FFFFFF;
-     height: 40px;
- }
+.location-select .Dropdown-control {
+  padding: 8px 17px 8px 38px;
+  text-align: center;
+  width: 100%;
+  background: #ffffff;
+  height: 40px;
+}
 
- .select-wrap .Dropdown-control {
+.select-wrap .Dropdown-control {
+  width: 100%;
+  background: #ffffff;
+  height: 40px;
+}
 
+.Dropdown-control {
+  cursor: pointer !important;
+  border-radius: 6px !important;
+  text-align: left !important;
+  padding: 8px 17px 8px 15px;
+  border-color: #cbd5e1 !important;
+  background: #ffffff;
+  height: 40px;
+}
 
-     width: 100%;
-     background: #FFFFFF;
-     height: 40px;
- }
+.Dropdown-arrow-wrapper {
+  display: none;
+}
 
- .Dropdown-control {
-     cursor: pointer !important;
-     border-radius: 6px !important;
-     text-align: left !important;
-     padding: 8px 17px 8px 15px;
-     border-color: #CBD5E1 !important;
-     background: #FFFFFF;
-     height: 40px;
- }
+.is-open .Dropdown-control {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
 
- .Dropdown-arrow-wrapper {
-     display: none;
+.nav-drop {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+}
 
- }
+.loc-wrap {
+  width: 50%;
+}
 
- .is-open .Dropdown-control {
-     border-bottom-left-radius: 0 !important;
-     border-bottom-right-radius: 0 !important;
- }
+.loc-wrap,
+.select-wrap,
+.stuff-wrap {
+  position: relative;
+}
 
- .nav-drop {
-     position: absolute;
-     top: 12px;
-     right: 16px;
- }
+.select-wrap,
+.stuff-wrap {
+  width: 25%;
+}
 
- .loc-wrap {
-     width: 50%;
- }
+.Dropdown-menu {
+  border-color: #cbd5e1 !important;
+  border-radius: 6px !important;
+  border-top-right-radius: 0 !important;
+  border-top-left-radius: 0 !important;
+}
 
- .loc-wrap,
- .select-wrap,
- .stuff-wrap {
-     position: relative;
- }
+.location-ico {
+  position: absolute;
+  z-index: 1;
+  left: 15px;
+  top: 9px;
+}
 
- .select-wrap,
- .stuff-wrap {
-     width: 25%;
- }
+.is-open + .nav-drop {
+  transform: rotate(180deg);
+}
 
- .Dropdown-menu {
-     border-color: #CBD5E1 !important;
-     border-radius: 6px !important;
-     border-top-right-radius: 0 !important;
-     border-top-left-radius: 0 !important;
- }
+.nav-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  width: 130px;
+  align-items: center;
+}
 
- .location-ico {
-     position: absolute;
-     z-index: 1;
-     left: 15px;
-     top: 9px;
- }
+.nav-btn {
+  width: 20%;
+}
 
- .is-open+.nav-drop {
-     transform: rotate(180deg);
- }
+.nav-input {
+  width: 80%;
+}
 
- .nav-icons {
-     display: flex;
-     flex-direction: row;
-     gap: 24px;
-     width: 130px;
-     align-items: center;
- }
+.nav-btn button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 7px 11px 7px 14px;
+  font-weight: 600;
+  justify-content: center;
+  font-size: 16px;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  color: #4c546e;
+  cursor: pointer;
+  background-color: white;
+  font-family: var(--font);
+  border: 1.5px solid #09af2e;
+  border-radius: 26px;
+}
+.flex-ico img {
+  cursor: pointer;
+}
+.nav-btn button img {
+  margin-right: 7px;
+}
+.Dropdown-placeholder {
+  font-weight: 500;
+  font-size: 15px;
 
- .nav-btn {
-     width: 20%;
- }
-
- .nav-input {
-     width: 80%;
- }
-
- .nav-btn button {
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-     padding: 7px 11px 7px 14px;
-     font-weight: 600;
-     justify-content: center;
-     font-size: 16px;
-     height: 40px;
-     width: 100%;
-     text-align: center;
-     margin: 0 auto;
-     color: #4C546E;
-     cursor: pointer;
-     background-color: white;
-     font-family: var(--font);
-     border: 1.5px solid #09AF2E;
-     border-radius: 26px;
- }
-
- .nav-btn button img {
-     margin-right: 7px;
- }
+  color: #0f172a;
+}

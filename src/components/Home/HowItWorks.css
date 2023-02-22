@@ -1,0 +1,66 @@
+.how-bg {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 55px;
+  flex-direction: column;
+  background: url(../../assets/img/wine.png);
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.how-main {
+  margin-bottom: 80px;
+}
+
+.work-heading {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.how-boxes {
+  display: flex;
+  flex-direction: row;
+  gap: 55px;
+}
+.indiv-how {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 46px 44px;
+
+  width: 223px;
+  height: 140px;
+
+  background: rgba(226, 226, 226, 0.17);
+  backdrop-filter: blur(8px);
+
+  border-radius: 18px;
+}
+
+.step-mark {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -30px;
+  text-align: center;
+}
+
+.indiv-how p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #ffffff;
+}
