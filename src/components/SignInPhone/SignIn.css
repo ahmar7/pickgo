@@ -1,0 +1,163 @@
+.main-signIn {
+  background-image: url(../../assets/img/signin.png);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 32px 0;
+  justify-content: center;
+}
+.sign-phone-form {
+  text-align: center;
+  padding: 60px 60px;
+  box-sizing: border-box;
+  width: 37vw;
+  background: var(--white);
+  box-shadow: 0px 2px 12px rgba(9, 10, 11, 0.28);
+  border-radius: 30px;
+}
+.main-form {
+  margin-top: 20px;
+}
+.sign-heading {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 40px;
+
+  text-align: center;
+
+  color: #373d4f;
+}
+
+.sign-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 30px;
+}
+.phone-input .phone {
+  width: 100%;
+  border: 1px solid var(--input-border);
+  padding-left: 20px;
+  border-left: none;
+  border-radius: 0px 6px 6px 0;
+  font-size: 15px;
+}
+.form-field {
+  width: 100%;
+  border: 1px solid var(--input-border);
+  padding-left: 20px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+.form-field::placeholder,
+.phone-input .phone::placeholder {
+  color: var(--input-border);
+}
+.phone-input {
+  display: flex;
+  flex-direction: row;
+}
+
+.phone-input .select-wrap .Dropdown-control {
+  width: 105px;
+
+  height: 40px;
+
+  background: #f9fcff !important;
+  padding: 8px 5px 8px 10px;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.phone-input .nav-drop {
+  right: 5px;
+  z-index: 0;
+}
+.phone-input .Dropdown-placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+  color: var(--text-color);
+}
+.phone-input .select-wrap {
+  width: auto;
+}
+.sign-btn button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 44px;
+  transition: all 0.2s ease;
+
+  height: 46px;
+  width: 100%;
+
+  background: var(--green);
+  border-radius: 6px;
+
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  border: 1px solid var(--green);
+  color: #ffffff;
+}
+.alter-btn button {
+  background-color: var(--white);
+  transition: all 0.2s ease;
+  color: var(--green);
+}
+.alter-btn button:hover {
+  border: 1px solid var(--green-hover);
+  transition: all 0.2s ease;
+  background-color: var(--white) !important;
+  color: var(--green-hover);
+}
+.sign-btn button:hover {
+  transition: all 0.2s ease;
+  background-color: var(--green-hover);
+  border: 1px solid var(--green-hover);
+}
+.alter-btn button:active {
+  border: 1px solid var(--green-active);
+  transition: all 0.2s ease;
+  background-color: var(--white) !important;
+  color: var(--green-active);
+}
+.sign-btn button:active {
+  transition: all 0.2s ease;
+  background-color: var(--green-active);
+  border: 1px solid var(--green-active);
+}
+.form-divider {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 45px 0;
+}
+.divider-line {
+  border-top: 1px solid var(--input-border);
+  width: 60%;
+}
+
+.divider-text {
+  width: 40%;
+
+  font-family: var(--font2);
+
+  font-weight: 500;
+  font-size: 14px;
+
+  text-align: center;
+
+  color: #464646;
+}

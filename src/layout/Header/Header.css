@@ -23,13 +23,13 @@
   padding: 8px 17px 8px 38px;
   text-align: center;
   width: 100%;
-  background: #ffffff;
+  background: transparent;
   height: 40px;
 }
 
 .select-wrap .Dropdown-control {
   width: 100%;
-  background: #ffffff;
+  background: transparent;
   height: 40px;
 }
 
@@ -38,8 +38,8 @@
   border-radius: 6px !important;
   text-align: left !important;
   padding: 8px 17px 8px 15px;
-  border-color: #cbd5e1 !important;
-  background: #ffffff;
+  border-color: var(--input-border) !important;
+  background: var(--white);
   height: 40px;
 }
 
@@ -56,6 +56,7 @@
   position: absolute;
   top: 12px;
   right: 16px;
+  z-index: -1;
 }
 
 .loc-wrap {
@@ -74,7 +75,7 @@
 }
 
 .Dropdown-menu {
-  border-color: #cbd5e1 !important;
+  border-color: var(--input-border) !important;
   border-radius: 6px !important;
   border-top-right-radius: 0 !important;
   border-top-left-radius: 0 !important;
@@ -82,7 +83,7 @@
 
 .location-ico {
   position: absolute;
-  z-index: 1;
+  z-index: -1;
   left: 15px;
   top: 9px;
 }
@@ -123,9 +124,9 @@
   margin: 0 auto;
   color: #4c546e;
   cursor: pointer;
-  background-color: white;
+  background-color: var(--white);
   font-family: var(--font);
-  border: 1.5px solid #09af2e;
+  border: 1.5px solid var(--green);
   border-radius: 26px;
 }
 .flex-ico img {
@@ -138,7 +139,7 @@
   font-weight: 500;
   font-size: 15px;
 
-  color: #0f172a;
+  color: var(--text-color);
 }
 .Dropdown-option {
   text-align: left;

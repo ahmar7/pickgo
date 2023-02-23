@@ -1,5 +1,6 @@
 import Logo from "../assets/img/logo.svg";
 import Chivron from "../assets/img/chevron-down.svg";
+import ChivronBlack from "../assets/img/chevron-black.svg";
 import LocationIco from "../assets/img/location.svg";
 import Bell from "../assets/img/bell.svg";
 import Heart from "../assets/img/heart.svg";
@@ -22,6 +23,7 @@ export {
   Logo,
   Chivron,
   LocationIco,
+  ChivronBlack,
   Bell,
   Heart,
   Shop,

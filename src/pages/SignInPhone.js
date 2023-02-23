@@ -1,11 +1,11 @@
 import React from "react";
-import SignIn from "../components/SignIn/SignIn";
+import { NavLink } from "react-router-dom";
+import SignIn from "../components/SignInPhone/SignIn";
 import Header from "../layout/Header/Header";
 
 const SignInPhone = () => {
   return (
     <div>
-      <Header />
       <SignIn />
     </div>
   );

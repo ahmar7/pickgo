@@ -1,6 +1,12 @@
 :root {
   --green: #09af2e;
+  --green-hover: #009120;
+  --green-active: #00751a;
+  --white: #ffffff;
+  --input-border: #cbd5e1;
   --font: "Inter", sans-serif;
+  --text-color: #0f172a;
+  --font2: "Montserrat", sans-serif;
 }
 
 body {
