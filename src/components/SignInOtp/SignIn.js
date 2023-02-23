@@ -12,7 +12,7 @@ const SignIn = () => {
     <div className="main-signIn main-otp">
       <div className="sign-phone-form otp-form">
         <div className="back-bt">
-          <NavLink to="/SignWithInEmail" className="link-back">
+          <NavLink to="/SignInWithEmail" className="link-back">
             <img src={BackBtn} alt="" /> Go Back
           </NavLink>
         </div>
@@ -68,7 +68,8 @@ const SignIn = () => {
               <div>
                 <p className="otp-text">
                   A message with a verification code has been sent to your{" "}
-                  <br /> phone +1 (555) 555-1234. Enter the code to continue.
+                  <br className="desk" /> phone +1 (555) 555-1234. Enter the
+                  code to continue.
                 </p>
                 <a href="" className="que">
                   Didn't get a verification code?

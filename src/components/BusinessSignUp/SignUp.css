@@ -1,0 +1,150 @@
+.business-form {
+  box-shadow: none !important;
+  border: none;
+}
+
+.business-left {
+  border-top-right-radius: 0 !important;
+  border-left: none !important;
+
+  border-bottom-right-radius: 0 !important;
+}
+.business-right {
+  background-color: var(--business-bg) !important;
+  border-left: none !important;
+  padding-top: 90px !important;
+  margin-left: -1px;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.main-business {
+  align-items: stretch !important;
+}
+
+.label-input {
+  text-align: left;
+}
+.label-input input {
+  margin-top: 5px;
+}
+.label-input label {
+  font-weight: 600;
+  text-align: left;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: var(--icon-color);
+}
+
+.label-input .select-wrap {
+  margin-top: 5px;
+  width: 100%;
+}
+.label-input .nav-drop {
+  z-index: 1;
+}
+.green {
+  color: var(--green);
+  font-weight: bold;
+}
+
+.otp-text.privacy {
+  max-width: 354px;
+  margin-top: 5px !important;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+
+  text-align: center;
+
+  color: #0f172a;
+}
+
+.bs-btn {
+  margin-top: -5px !important;
+}
+
+.exist-account {
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 25px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.exist-account a {
+  color: #636b85;
+}
+
+.get-busniness {
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 35px;
+  text-align: center;
+
+  color: var(--green);
+}
+
+.get-desc {
+  margin-top: 15px;
+
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+
+  color: var(--icon-color);
+}
+
+.start-box {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+.indiv-start {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 46px;
+
+  width: 305px;
+  margin: 0 auto;
+  height: 87px;
+
+  background: var(--white);
+
+  border: 1px solid var(--green);
+  border-radius: 15px;
+}
+.abs-start {
+  position: absolute;
+  left: -35px;
+}
+
+.get-text {
+  font-weight: 500;
+  font-size: 14px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #373d4f;
+}
+.alter-abs {
+  right: -35px !important;
+  left: auto;
+}
+@media (min-width: 1500px) {
+  .indiv-start {
+    width: 370px;
+  }
+}

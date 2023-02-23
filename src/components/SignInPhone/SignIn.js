@@ -40,7 +40,7 @@ const SignIn = () => {
               </div>
             </form>
             <div className="sign-btn alter-btn">
-              <NavLink to="/SignWithInEmail">
+              <NavLink to="/SignInWithEmail">
                 <button>Login with Email instead</button>
               </NavLink>
             </div>
@@ -91,7 +91,10 @@ const SignIn = () => {
               id=""
             />
             <div className="sign-btn">
-              <button>Sign Up</button>
+              <NavLink to="/BusinessSignUp">
+                {" "}
+                <button>Sign Up</button>
+              </NavLink>
             </div>
           </form>
         </div>

@@ -19,6 +19,9 @@ import Step1 from "../assets/img/1.svg";
 import Step3 from "../assets/img/3.svg";
 import Step2 from "../assets/img/2.svg";
 import BackBtn from "../assets/img/arrow-left.svg";
+import Get1 from "../assets/img/get1.svg";
+import Get2 from "../assets/img/get2.svg";
+import Get3 from "../assets/img/get3.svg";
 
 export {
   Logo,
@@ -42,4 +45,7 @@ export {
   Step2,
   Step3,
   BackBtn,
+  Get1,
+  Get2,
+  Get3,
 };

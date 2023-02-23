@@ -68,7 +68,7 @@ const Header = () => {
             />
             <img className="nav-drop" src={Chivron} alt="" />
           </div>
-          <NavLink to="/SignWithInPhone" className="nav-btn home-shown">
+          <NavLink to="/SignInWithPhone" className="nav-btn home-shown">
             <button>Login/Sign up</button>
           </NavLink>
           {/* <div className="nav-btn home-shown">

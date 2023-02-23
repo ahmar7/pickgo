@@ -35,7 +35,7 @@ const SignIn = () => {
               <button>Continue</button>
             </div>
             <div className="sign-btn alter-btn">
-              <NavLink to="/SignWithInOtp">
+              <NavLink to="/SignInWithOtp">
                 <button>Login with OTP instead</button>
               </NavLink>
             </div>
@@ -85,9 +85,11 @@ const SignIn = () => {
               placeholder="Your Name"
               id=""
             />
-            <div className="sign-btn">
-              <button>Sign Up</button>
-            </div>
+            <NavLink to="/BusinessSignUp">
+              <div className="sign-btn">
+                <button>Sign Up</button>
+              </div>
+            </NavLink>
           </form>
         </div>
       </div>

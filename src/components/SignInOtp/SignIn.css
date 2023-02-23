@@ -80,7 +80,11 @@ input[type="number"] {
   .otp-form {
     height: 100vh;
     box-sizing: border-box;
+    padding-top: 70px !important;
     overflow: hidden;
+  }
+  .desk {
+    display: none;
   }
   .main-otp {
     box-sizing: border-box;
