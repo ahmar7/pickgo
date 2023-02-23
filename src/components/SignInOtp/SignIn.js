@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Chivron, ChivronBlack, Logo } from "../../utils/allImg";
+import { BackBtn, Chivron, ChivronBlack, Logo } from "../../utils/allImg";
 import Dropdown from "react-dropdown";
 import "react-dropdown/style.css";
 import "./SignIn.css";
@@ -9,89 +9,74 @@ const SignIn = () => {
   const defaultOption = options[0];
 
   return (
-    <div className="main-signIn">
-      <div className="sign-phone-form">
+    <div className="main-signIn main-otp">
+      <div className="sign-phone-form otp-form">
+        <div className="back-bt">
+          <NavLink to="/SignWithInEmail" className="link-back">
+            <img src={BackBtn} alt="" /> Go Back
+          </NavLink>
+        </div>
         <NavLink to="/">
           <img src={Logo} alt="" />
         </NavLink>
         <div className="main-form">
-          <h1 className="sign-heading">Sign In </h1>
-          <div className="sign-inputs">
-            <form action="">
-              <div className="phone-input">
-                <div className="select-wrap">
-                  <Dropdown
-                    className="category-select"
-                    options={options}
-                    value={defaultOption}
-                    placeholder="Select an option"
-                  />
-                  <img className="nav-drop" src={ChivronBlack} alt="" />
-                </div>
+          <h1 className="sign-heading">Enter Code</h1>
+          <form action="">
+            <div className="sign-inputs">
+              <div className="phone-input otp-input">
                 <input
-                  type="number"
-                  className="phone"
                   required
-                  placeholder="Phone Number is Required"
+                  className="single-numer"
+                  maxLength={1}
+                  onKeyPress={(event) => {
+                    if (!/[0-9]/.test(event.key)) {
+                      event.preventDefault();
+                    }
+                  }}
+                />
+                <input
+                  required
+                  className="single-numer"
+                  maxLength={1}
+                  onKeyPress={(event) => {
+                    if (!/[0-9]/.test(event.key)) {
+                      event.preventDefault();
+                    }
+                  }}
+                />
+                <input
+                  required
+                  className="single-numer"
+                  maxLength={1}
+                  onKeyPress={(event) => {
+                    if (!/[0-9]/.test(event.key)) {
+                      event.preventDefault();
+                    }
+                  }}
+                />
+                <input
+                  required
+                  className="single-numer"
+                  maxLength={1}
+                  onKeyPress={(event) => {
+                    if (!/[0-9]/.test(event.key)) {
+                      event.preventDefault();
+                    }
+                  }}
                 />
               </div>
-              <div className="sign-btn" style={{ marginTop: "25px" }}>
+              <div>
+                <p className="otp-text">
+                  A message with a verification code has been sent to your{" "}
+                  <br /> phone +1 (555) 555-1234. Enter the code to continue.
+                </p>
+                <a href="" className="que">
+                  Didn't get a verification code?
+                </a>
+              </div>
+              <div className="sign-btn">
                 <button>Continue</button>
               </div>
-            </form>
-            <div className="sign-btn alter-btn">
-              <NavLink to="/SignWithInEmail">
-                <button>Login with Email instead</button>
-              </NavLink>
-            </div>
-          </div>
-          <div className="form-divider">
-            <span className="divider-line"></span>
-            <span className="divider-text">OR</span>
-            <span className="divider-line"></span>
-          </div>
-          <h1 className="sign-heading">Sign Up </h1>
-          <form className="sign-inputs">
-            <div className="phone-input">
-              <div className="select-wrap">
-                <Dropdown
-                  className="category-select"
-                  options={options}
-                  value={defaultOption}
-                  placeholder="Select an option"
-                />
-                <img className="nav-drop" src={ChivronBlack} alt="" />
-              </div>
-              <input
-                required
-                type="text"
-                className="phone"
-                placeholder="Phone Number is Required"
-              />
-            </div>
-            <input
-              required
-              type="email"
-              className="form-field"
-              placeholder="Your Email"
-              id=""
-            />
-            <input
-              required
-              type="password"
-              className="form-field"
-              placeholder="Your Password"
-              id=""
-            />
-            <input
-              required
-              type="text"
-              className="form-field"
-              placeholder="Your Name"
-              id=""
-            />
-            <div className="sign-btn">
-              <button>Sign Up</button>
             </div>
           </form>
         </div>

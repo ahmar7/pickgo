@@ -18,6 +18,7 @@ import Gift4 from "../assets/img/gift4.png";
 import Step1 from "../assets/img/1.svg";
 import Step3 from "../assets/img/3.svg";
 import Step2 from "../assets/img/2.svg";
+import BackBtn from "../assets/img/arrow-left.svg";
 
 export {
   Logo,
@@ -40,4 +41,5 @@ export {
   Step1,
   Step2,
   Step3,
+  BackBtn,
 };
