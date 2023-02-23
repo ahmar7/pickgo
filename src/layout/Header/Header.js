@@ -11,6 +11,7 @@ import {
 import "./Header.css";
 import Dropdown from "react-dropdown";
 import "react-dropdown/style.css";
+import { Link, NavLink } from "react-router-dom";
 const Header = () => {
   const options = [
     "Rancho Cordoca, CA",
@@ -34,7 +35,9 @@ const Header = () => {
     <div className="main-container">
       <div className="container-width navbar">
         <div className="logo no-left-margin inner-flex">
-          <img src={Logo} alt="" />
+          <NavLink to="/">
+            <img src={Logo} alt="" />
+          </NavLink>
         </div>
         <div className="nav-input inner-flex">
           <div className="loc-wrap">
@@ -65,12 +68,12 @@ const Header = () => {
             />
             <img className="nav-drop" src={Chivron} alt="" />
           </div>
-          <div className="nav-btn home-shown">
-            <button>Login</button>
-          </div>
-          <div className="nav-btn home-shown">
-            <button>Sign up</button>
-          </div>
+          <NavLink to="/SignWithInPhone" className="nav-btn home-shown">
+            <button>Login/Sign up</button>
+          </NavLink>
+          {/* <div className="nav-btn home-shown">
+            <button></button>
+          </div> */}
         </div>
         <div className="nav-icons">
           <div className="flex-ico">

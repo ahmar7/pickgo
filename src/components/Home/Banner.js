@@ -17,7 +17,20 @@ const Banner = () => {
             <div className="img-relative">
               <div className="bx-mbl">
                 <img src={Mobile} alt="" />
+                <div className="top-head">wow</div>
                 <p>$25</p>
+                <div className="inner-head">
+                  GIFT
+                  <span className="inner-blk">for you</span>
+                </div>
+                <div className="quote-bx">
+                  <div>
+                    Discover Your <br /> Next{" "}
+                    <span className="bold">Favorite </span>
+                    <br />
+                    <span className="bold"> Business</span>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="bx-content right-float">
