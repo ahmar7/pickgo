@@ -85,6 +85,7 @@ const Header = () => {
           <div className="flex-ico">
             <img src={Shop} alt="" />
           </div>
+          <div className="nav-toggle mbl-only"></div>
         </div>
         <div className="nav-btn">
           <button>

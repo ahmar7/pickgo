@@ -158,7 +158,9 @@
 .home-page .home-hidden {
   display: none;
 }
-
+.mbl-only {
+  display: none;
+}
 @media (max-width: 1300px) {
   .nav-input {
     width: 60%;
@@ -192,5 +194,12 @@
 @media (max-width: 950px) {
   .nav-input.inner-flex {
     display: none;
+  }
+  .nav-btn {
+    display: none;
+  }
+  .navbar {
+    justify-content: space-between;
+    padding: 15px 0;
   }
 }
