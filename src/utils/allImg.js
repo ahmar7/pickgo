@@ -22,6 +22,11 @@ import BackBtn from "../assets/img/arrow-left.svg";
 import Get1 from "../assets/img/get1.svg";
 import Get2 from "../assets/img/get2.svg";
 import Get3 from "../assets/img/get3.svg";
+import Woman from "../assets/img/woman.svg";
+import Bg1 from "../assets/img/bg2.svg";
+import BackgroundShape from "../assets/img/backgroundshapes.svg";
+import Satisfy from "../assets/img/satisfy.svg";
+import Fans from "../assets/img/fans.svg";
 
 export {
   Logo,
@@ -48,4 +53,9 @@ export {
   Get1,
   Get2,
   Get3,
+  Woman,
+  Bg1,
+  BackgroundShape,
+  Satisfy,
+  Fans,
 };

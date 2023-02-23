@@ -199,11 +199,11 @@
   .phone-input .select-wrap .Dropdown-control {
     box-sizing: border-box;
   }
-  /* .phone-input .phone {
-    padding-top: 9px;
-    padding-bottom: 9px;
-  } */
+  .phone-input .phone {
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+  }
   .phone-input {
-    align-items: stretch;
+    align-items: center;
   }
 }

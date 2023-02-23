@@ -1,6 +1,8 @@
 .business-form {
   box-shadow: none !important;
   border: none;
+
+  width: 41vw !important;
 }
 
 .business-left {

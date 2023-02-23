@@ -129,6 +129,13 @@
   border: 1.5px solid var(--green);
   border-radius: 26px;
 }
+.nav-btn button {
+  width: 167px;
+}
+.home-shown button {
+  width: 386px;
+}
+
 .flex-ico img {
   cursor: pointer;
 }
@@ -150,4 +157,40 @@
 
 .home-page .home-hidden {
   display: none;
+}
+
+@media (max-width: 1300px) {
+  .nav-input {
+    width: 60%;
+  }
+
+  .nav-btn {
+    width: auto;
+  }
+  .home-shown button {
+    width: 141px;
+  }
+}
+@media (max-width: 1200px) {
+  .navbar {
+    gap: 20px;
+  }
+  .nav-icons {
+    gap: 15px;
+  }
+  .navbar .Dropdown-placeholder {
+    font-size: 14px;
+  }
+  .nav-btn button {
+    font-size: 14px;
+    width: 140px;
+  }
+  .nav-input {
+    gap: 10px;
+  }
+}
+@media (max-width: 950px) {
+  .nav-input.inner-flex {
+    display: none;
+  }
 }
