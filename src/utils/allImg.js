@@ -27,6 +27,7 @@ import Bg1 from "../assets/img/bg2.svg";
 import BackgroundShape from "../assets/img/backgroundshapes.svg";
 import Satisfy from "../assets/img/satisfy.svg";
 import Fans from "../assets/img/fans.svg";
+import Bar from "../assets/img/bar.png";
 
 export {
   Logo,
@@ -58,4 +59,5 @@ export {
   BackgroundShape,
   Satisfy,
   Fans,
+  Bar,
 };

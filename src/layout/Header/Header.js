@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import {
+  Bar,
   Bell,
   Chivron,
   Download,
@@ -31,6 +32,14 @@ const Header = () => {
   const defaultOption = options[0];
   const defaultOption2 = options2[0];
   const defaultOption3 = options3[0];
+  const [drop, setDrop] = useState(false);
+  let toggleNav = () => {
+    if (drop === false) {
+      setDrop(true);
+    } else {
+      setDrop(false);
+    }
+  };
   return (
     <div className="main-container">
       <div className="container-width navbar">
@@ -39,7 +48,11 @@ const Header = () => {
             <img src={Logo} alt="" />
           </NavLink>
         </div>
-        <div className="nav-input inner-flex">
+        <div
+          className={
+            drop ? "nav-input inner-flex max-height" : "nav-input inner-flex"
+          }
+        >
           <div className="loc-wrap">
             <img src={LocationIco} className="location-ico" alt="" />
             <Dropdown
@@ -71,9 +84,12 @@ const Header = () => {
           <NavLink to="/SignInWithPhone" className="nav-btn home-shown">
             <button>Login/Sign up</button>
           </NavLink>
-          {/* <div className="nav-btn home-shown">
-            <button></button>
-          </div> */}
+          <div className="nav-btn mbl-only">
+            <button>
+              <img src={Download} alt="" />
+              Get the app
+            </button>
+          </div>
         </div>
         <div className="nav-icons">
           <div className="flex-ico">
@@ -85,7 +101,9 @@ const Header = () => {
           <div className="flex-ico">
             <img src={Shop} alt="" />
           </div>
-          <div className="nav-toggle mbl-only"></div>
+          <div className="nav-toggle mbl-only">
+            <img src={Bar} alt="" onClick={toggleNav} />
+          </div>
         </div>
         <div className="nav-btn">
           <button>

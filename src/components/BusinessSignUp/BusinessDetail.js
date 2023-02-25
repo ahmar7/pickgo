@@ -44,7 +44,7 @@ const BusinessDetail = () => {
       </div>
       <div className="business-flex no-margin">
         <div className="left-buse">
-          <img src={Fans} className="wm-img" alt="" />
+          {/* <img src={Fans} className="wm-img" alt="" /> */}
         </div>
         <div className="right-buse">
           <h1>Business acquire new customers?</h1>
