@@ -36,7 +36,9 @@ const SignIn = () => {
                 />
               </div>
               <div className="sign-btn" style={{ marginTop: "25px" }}>
-                <button>Continue</button>
+                <NavLink to="/gifts">
+                  <button>Continue</button>
+                </NavLink>
               </div>
             </form>
             <div className="sign-btn alter-btn">
@@ -91,7 +93,7 @@ const SignIn = () => {
               id=""
             />
             <div className="sign-btn">
-              <NavLink to="/BusinessSignUp">
+              <NavLink to="/gifts">
                 {" "}
                 <button>Sign Up</button>
               </NavLink>

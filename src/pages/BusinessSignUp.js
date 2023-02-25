@@ -4,23 +4,9 @@ import SignUp from "../components/BusinessSignUp/SignUp";
 
 const BusinessSignUp = () => {
   return (
-    <div>
+    <div className="cls">
       <SignUp />
       <BusinessDetail />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
     </div>
   );
 };

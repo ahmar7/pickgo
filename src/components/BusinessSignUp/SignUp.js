@@ -112,15 +112,28 @@ const SignUp = () => {
           <div className="start-box">
             <div className="indiv-start">
               <img src={Get1} className="abs-start " alt="" />
-              <p className="get-text">Bring You New Customers</p>
+              <h3 className="abs-head">Bring You New Customers.</h3>
+              <p className="get-text">
+                Get more fans & followers, build connections
+              </p>
             </div>
             <div className="indiv-start ">
               <img src={Get2} className="abs-start alter-abs" alt="" />
-              <p className="get-text">Build Loyalty</p>
+              <h3 className="abs-head">Build Loyalty </h3>
+
+              <p className="get-text">
+                Learn what your fans like and don't like to build a deeper
+                relationship
+              </p>
             </div>
             <div className="indiv-start">
               <img src={Get3} className="abs-start" alt="" />
-              <p className="get-text">Make it Destination</p>
+              <h3 className="abs-head">Make it Destination.</h3>
+
+              <p className="get-text">
+                Good customer will support you after they found in love with
+                your product
+              </p>
             </div>
           </div>
         </div>

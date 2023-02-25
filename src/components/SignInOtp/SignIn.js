@@ -76,7 +76,9 @@ const SignIn = () => {
                 </a>
               </div>
               <div className="sign-btn">
-                <button>Continue</button>
+                <NavLink to="/gifts">
+                  <button>Continue</button>
+                </NavLink>
               </div>
             </div>
           </form>

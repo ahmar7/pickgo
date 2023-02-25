@@ -5,6 +5,8 @@ import Home from "../pages/Home";
 import SignInEmail from "../pages/SignInEmail";
 import SignInOtp from "../pages/SignInOtp";
 import SignInWithPhone from "../pages/SignInPhone";
+import Gifts from "../pages/Gifts";
+import GiftDetails from "../pages/IndividualCard";
 
 export default function Router() {
   return (
@@ -15,6 +17,8 @@ export default function Router() {
         <Route path="SignInWithEmail" element={<SignInEmail />} />
         <Route path="SignInWithOtp" element={<SignInOtp />} />
         <Route path="BusinessSignUp" element={<BusinessSignUp />} />
+        <Route path="gifts" element={<Gifts />} />
+        <Route path="giftDetails" element={<GiftDetails />} />
       </Routes>
     </BrowserRouter>
   );

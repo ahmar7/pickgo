@@ -154,7 +154,9 @@
 .home-page .home-shown {
   display: inherit;
 }
-
+.cls {
+  margin-bottom: 50px !important;
+}
 .home-page .home-hidden {
   display: none;
 }
@@ -219,6 +221,7 @@
     overflow: hidden;
     height: 0px;
   }
+
   .max-height {
     height: 250px !important;
     transition: all 0.4s ease;

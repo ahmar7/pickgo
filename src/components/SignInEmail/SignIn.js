@@ -32,7 +32,9 @@ const SignIn = () => {
               id=""
             />
             <div className="sign-btn">
-              <button>Continue</button>
+              <NavLink to="/gifts">
+                <button>Continue</button>
+              </NavLink>
             </div>
             <div className="sign-btn alter-btn">
               <NavLink to="/SignInWithOtp">
@@ -85,7 +87,7 @@ const SignIn = () => {
               placeholder="Your Name"
               id=""
             />
-            <NavLink to="/BusinessSignUp">
+            <NavLink to="/gifts">
               <div className="sign-btn">
                 <button>Sign Up</button>
               </div>

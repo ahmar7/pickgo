@@ -24,12 +24,21 @@ import Get2 from "../assets/img/get2.svg";
 import Get3 from "../assets/img/get3.svg";
 import Woman from "../assets/img/woman.svg";
 import Bg1 from "../assets/img/bg2.svg";
+import Awk from "../assets/img/awk.png";
 import BackgroundShape from "../assets/img/backgroundshapes.svg";
 import Satisfy from "../assets/img/satisfy.svg";
-import Fans from "../assets/img/fans.svg";
+import Fans from "../assets/img/fans2.png";
 import Bar from "../assets/img/bar.png";
+import Sat from "../assets/img/sat.png";
+import Offset from "../assets/img/offset.svg";
+import Qr from "../assets/img/qr.png";
+import RuleDesk from "../assets/img/Desk_alt.png";
 
 export {
+  RuleDesk,
+  Sat,
+  Qr,
+  Offset,
   Logo,
   Chivron,
   LocationIco,
@@ -42,6 +51,7 @@ export {
   WDownload,
   ExportIco,
   GreatIco,
+  Awk,
   GetupIco,
   Gift1,
   Gift2,

@@ -47,7 +47,7 @@
   z-index: 1;
 }
 .green {
-  color: var(--green);
+  color: var(--green) !important;
   font-weight: bold;
 }
 
@@ -77,10 +77,15 @@
   align-items: center;
   text-align: center;
   justify-content: center;
+  transition: all 0.3s ease;
 }
 
 .exist-account a {
   color: #636b85;
+}
+.exist-account a:hover {
+  transition: all 0.3s ease;
+  color: var(--icon-light);
 }
 
 .get-busniness {
@@ -112,14 +117,14 @@
   box-sizing: border-box;
   position: relative;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 32px 46px;
+  padding: 15px 35px;
 
-  width: 305px;
+  width: 375px;
   margin: 0 auto;
-  height: 87px;
+  height: 95px;
 
   background: var(--white);
 
@@ -130,14 +135,19 @@
   position: absolute;
   left: -35px;
 }
+.abs-head {
+  font-size: 15px;
+  font-weight: 600;
 
+  margin-bottom: 5px;
+}
 .get-text {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
 
   display: flex;
   align-items: center;
-  text-align: center;
+  text-align: left;
 
   color: #373d4f;
 }
@@ -148,5 +158,72 @@
 @media (min-width: 1500px) {
   .indiv-start {
     width: 370px;
+  }
+}
+@media (max-width: 1170px) {
+  .business-form {
+    width: 46vw !important;
+  }
+}
+@media (max-width: 1040px) {
+  .business-form {
+    width: 47.5vw !important;
+  }
+  .sign-phone-form {
+    padding: 50px 35px !important;
+  }
+}
+
+@media (max-width: 940px) {
+  .main-signIn {
+    flex-direction: column-reverse;
+  }
+  .business-form {
+    width: 95vw !important;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  .indiv-start {
+    width: 100%;
+  }
+  .business-detail {
+    margin-top: 30px;
+  }
+  .right-buse {
+    margin-top: 0;
+  }
+
+  .start-box {
+    margin-top: 40px;
+  }
+  .business-right {
+    border-radius: 30px 30px 0 0 !important;
+  }
+  .sign-phone-form {
+    padding: 50px 75px !important;
+  }
+  .business-left {
+    border-radius: 0px 0px 30px 30px !important;
+    margin-top: -5px;
+    padding-top: 0 !important;
+  }
+}
+@media (max-width: 580px) {
+  .business-form {
+    width: 100% !important;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  .sign-phone-form {
+  }
+  .business-left {
+    padding: 50px 14px !important;
+    margin-top: -8px;
+    border-radius: 0px !important;
+  }
+  .business-right {
+    padding: 50px 45px !important;
+    border-radius: 0 !important;
   }
 }
