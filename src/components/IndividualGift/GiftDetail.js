@@ -15,7 +15,7 @@ const GiftDetail = () => {
     <div className="main-detail ">
       <div className="container-width">
         <div className="detail-flex">
-          <div className="side-detail">
+          <div className="side-detail side-gift ">
             <div className="indiv-gift ">
               <div className="gift-img">
                 <img src={Gift1} alt="" />
@@ -50,7 +50,7 @@ const GiftDetail = () => {
               </div>
             </div>
           </div>
-          <div className="side-detail">
+          <div className="side-detail side-rule">
             <div className="rules">
               <div className="rule-heading" onClick={toggleContent}>
                 <h1 className="restriction">
