@@ -46,7 +46,7 @@ const GiftDetail = () => {
                 <p className="qr-desc">Show QR code to cashier</p>
                 <p className="qr-desc">Phone # 206-495-5555</p>
                 <p className="qr-desc bold">Don’t have app?</p>
-                <p className="green qr-desc  ">Download It Now</p>
+                <p className="green qr-desc">Download It Now</p>
               </div>
             </div>
           </div>
